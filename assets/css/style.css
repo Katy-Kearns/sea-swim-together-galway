@@ -6,6 +6,31 @@
     border: none;
 }
 body {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Slab', serif;
     font-weight: 300;
+    color:#1B4E53;
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #002829;
+}
+
+#logo {
+    float:left;
+    font-size: 280%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    float:right;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline;
 }
