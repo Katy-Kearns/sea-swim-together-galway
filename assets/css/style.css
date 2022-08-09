@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: 'Josefin Slab', serif;
     font-weight: 300;
@@ -84,8 +85,8 @@ section {
         width: 100%;
         position: fixed;
         background-size: cover;
-  }
-  
+    }
+    }
   /* Small screens */
   @media all and (max-width: 500px) {
     .navigation {
@@ -99,6 +100,22 @@ section {
     position: fixed;
     background-size: cover;
     }
+    }
+  
+  .container-1 {
+    display:flex;
   }
 
-  
+  .container-1 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .box-1 {
+    flex:1
+  }
+
+  .box-2 {
+    flex:2;
+  }
