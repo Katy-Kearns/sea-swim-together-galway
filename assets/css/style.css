@@ -8,8 +8,9 @@
 
 body {
     font-family: 'Josefin Slab', serif;
-    font-weight: 300;
+    font-weight: 1000;
     color:#1B4E53;
+
 }
 
 h1, h2 {
@@ -19,10 +20,15 @@ h1, h2 {
     color: #002829;
 }
 
+h3 {
+  text-decoration-line: underline;
+}
+
 #logo {
     float:left;
     font-size: 280%;
     margin-left: 20px;
+    color: #002829;
 }
 
 #menu {
@@ -130,9 +136,18 @@ section {
 
   .box-1 {
     flex:1;
+    text-align: center;
+    background-color: #74A0AA;
+    border-radius: 50%;
   }
 
   .box-2 {
     flex:1;
+    text-align: center;
+    background-color: #74A0AA;
+    border-radius: 50%;
   }
 
+ul {
+  list-style: none;
+}
