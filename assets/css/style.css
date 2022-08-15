@@ -88,7 +88,7 @@ section {
 
     #hero-image {
         background: url('../images/hero-medium-screen.jpg') no-repeat center center;
-        height: 30%;
+        height: 300px;
         width: 100%;
         background-size: cover;
     }
@@ -107,7 +107,7 @@ section {
     
     #hero-image {
     background: url('../images/hero-small-screen.jpg') no-repeat center center;
-    height: 30%;
+    height: 300px;
     width: 100%;
     background-size: cover;
     }
