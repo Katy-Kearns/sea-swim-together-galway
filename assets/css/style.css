@@ -22,7 +22,6 @@ body {
   font-family: 'Josefin Slab', serif;
   font-weight:bold;
   color:#1B4E53;
-
 }
 
 #logo {
@@ -82,12 +81,16 @@ section {
   /* Medium screens */
   @media all and (max-width: 800px) {
     .navigation {
-      /* When on medium sized screens, we center it by evenly distributing empty space around items */
-      justify-content: space-around;
+      /* When on medium sized screens, we reduce font and wrap revere to stay horizontal on nav bar */
+      /*justify-content: space-around;*/
+      flex-wrap: wrap-reverse;
+      font-weight:bold;
+
     }
 
     #hero-image {
-        background: url('../images/hero-medium-screen.jpg') no-repeat center center;
+        /*background: url('../images/hero-medium-screen.jpg') no-repeat center center;*/
+        background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
         height: 300px;
         width: 100%;
         background-size: cover;
@@ -96,24 +99,51 @@ section {
     .container-1 {
       display: flex;
     }
+
+    #logo {
+      font-size:140%;
+      letter-spacing: 1px;
+    }
+
+    /*to reduce space between menu items*/
+    .navigation #menu li {
+      margin-right: 20px;
+    }
     }
 
   /* Small screens */
   @media all and (max-width: 500px) {
     .navigation {
       /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
+      flex-wrap: wrap-reverse;
+      font-size:80%;
     }
-    
+
+    #menu {
+      letter-spacing:normal;
+    }
+
     #hero-image {
-    background: url('../images/hero-small-screen.jpg') no-repeat center center;
+    /*background: url('../images/hero-small-screen.jpg') no-repeat center center;*/
+    background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
     height: 300px;
     width: 100%;
     background-size: cover;
     }
+
     .container-1 {
       flex-direction: column;
     }
+
+    #logo {
+      font-size:160%;
+    }
+
+    /*to reduce space between menu items*/
+    .navigation #menu li {
+      margin-right: 10px;
+    }
+
   }
 
     .container-1 {
