@@ -82,6 +82,147 @@ section {
     justify-content: flex-end;
   }
   
+
+  
+  .container-1 div {
+    border: 1px #ccc solid;
+    justify-content: center;
+  }
+
+  .box-1 {
+    flex:1;
+    text-align: left;
+    background-color: #74A0AA;
+    padding: 30px;
+    margin: 30px 15px 15px 30px;
+    line-height: 2;
+  }
+
+
+  .box-2 {
+    flex:1;
+    text-align: left;
+    background-color: #74A0AA;
+    padding: 30px;
+    margin: 30px 30px 15px 15px;
+    line-height: 2;
+  }
+
+  .container-1 {
+    display: flex;
+  }
+
+  .container-2 {
+    display: flex;
+  }
+
+  .box-3 {
+    flex:1;
+    text-align: left;
+    background-color: #74A0AA;
+    padding: 30px;
+    margin: 15px 15px 30px 30px;
+    line-height: 2;
+  }
+
+    .box-4 {
+    flex:1;
+    text-align: left;
+    background-color: #74A0AA;
+    padding: 30px;
+    margin: 15px 30px 30px 15px;
+    line-height: 2;  
+    }
+   
+    
+.box-4 #times li {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+.container-1 div #box-2 {
+    display: inline-flex;
+}
+
+/*.footer {
+  height: 200px;
+  position:relative;
+}*/
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 240%;
+  margin: 1%;
+  padding: 5%;
+  color: #002829;
+}
+
+/*Trying to stick the footer to the bottom of the page*/
+/*html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  margin-top: auto;
+}
+.footer {
+  flex-shrink: 0;
+}*/
+
+/*form from love running editing with flex*/
+#form {
+  margin:20px;
+  justify-content: center;
+  text-align:center;
+}
+.form-1 {
+  display: inline;
+}
+
+.text-input {
+  background:transparent;
+  color:#fafafa;
+  width:200px;
+  height:25px;
+  margin:20px 20px 20px 5px;
+  padding: 5px;
+  border: 2px solid #002829;
+  border-radius:2px;
+}
+
+.text-input:hover {
+  border-color:#74A0AA;
+}
+
+.join-button {
+  margin:20px;
+  border-radius:2px;
+  padding: 15px 32px;
+  text-align:center;
+  font-size:100%;
+  background-color:#002829;
+  color:#fafafa;
+  display:inline;
+}
+
+.join-button:hover {
+  background-color:#74A0AA;
+  color:#002829;
+}
+
   /* Medium screens */
   @media all and (max-width: 900px) {
     .navigation {
@@ -161,93 +302,19 @@ section {
     .navigation #menu li {
       margin-right: 10px;
     }
-  }
 
   /*To align the flex boxes in smaller screen and overwrite the margins in wider screens*/
     div.box-1, div.box-2, div.box-3, div.box-4 {
       margin: 20px;
     }
 
-     /*end of media queries*/
-
-    .container-1 {
-      display: flex;
-    |}
-  
-  .container-1 div {
-    border: 1px #ccc solid;
-    justify-content: center;
-  }
-
-  .box-1 {
-    flex:1;
-    text-align: left;
-    background-color: #74A0AA;
-    padding: 30px;
-    margin: 30px 15px 15px 30px;
-    line-height: 2;
-  }
-
-
-  .box-2 {
-    flex:1;
-    text-align: left;
-    background-color: #74A0AA;
-    padding: 30px;
-    margin: 30px 30px 15px 15px;
-    line-height: 2;
-  }
-
-  .container-2 {
-    display: flex;
-  }
-
-  .box-3 {
-    flex:1;
-    text-align: left;
-    background-color: #74A0AA;
-    padding: 30px;
-    margin: 15px 15px 30px 30px;
-    line-height: 2;
-  }
-
-    .box-4 {
-    flex:1;
-    text-align: left;
-    background-color: #74A0AA;
-    padding: 30px;
-    margin: 15px 30px 30px 15px;
-    line-height: 2;  
+    #form {
+      display: block;
+      justify-content: left;
+      text-align:left;
     }
-   
-    
-.box-4 #times li {
-  text-transform: uppercase;
-}
+    .form-1 {
+      display: block;
+    }
 
-ul {
-  list-style: none;
-}
-
-.container-1 div #box-2 {
-    display: inline-flex;
-}
-
-footer {
-  height: 200px;
-}
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks > li {
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 240%;
-  margin: 1%;
-  padding: 5%;
-  color: #002829;
-}
+  }
