@@ -138,6 +138,9 @@ section {
     .container-1 {
       flex-direction: column;
     }
+    .container-2 {
+      flex-direction: column;
+    }
 
     #logo {
       font-size:160%;
@@ -165,8 +168,7 @@ section {
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
-    margin: 30px;
-    margin-bottom: 10px;
+    margin: 30px 15px 15px 30px;
     line-height: 2;
   }
 
@@ -176,10 +178,14 @@ section {
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
-    margin: 30px;
-    margin-bottom: 10px;
+    margin: 30px 30px 15px 15px;
     line-height: 2;
+  }
+
+  .container-2 {
+    display: flex;
   
+
   }
 
   .box-3 {
@@ -187,13 +193,21 @@ section {
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
-    margin: 30px;
-    margin-bottom: 10px;
+    margin: 15px 15px 30px 30px;
     line-height: 2;
-    
   }
 
-.box-3 #times li {
+    .box-4 {
+    flex:1;
+    text-align: left;
+    background-color: #74A0AA;
+    padding: 30px;
+    margin: 15px 30px 30px 15px;
+    line-height: 2;  
+    }
+   
+    
+.box-4 #times li {
   text-transform: uppercase;
 }
 
@@ -205,17 +219,8 @@ ul {
     display: inline-flex;
 }
 
-/*#box-2 {
-  background: url('../images/Blackrock-Diving-Tower-Galways-Most-Iconic-Swim-Spot-300x300.jpg') no-repeat center center;
-  height: 200px;
-  width: 200px;
-  padding: 30px;
-  margin: 30px;
-  border-radius: 50%;
-}*/ 
-
 footer {
-  height: 80px;
+  height: 150px;
 }
 
 .social-networks {
