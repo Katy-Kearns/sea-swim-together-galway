@@ -24,6 +24,10 @@ body {
   color:#1B4E53;
 }
 
+header {
+ padding: 10px;
+}
+
 #logo {
     float:left;
     font-size: 280%;
@@ -79,7 +83,7 @@ section {
   }
   
   /* Medium screens */
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 900px) {
     .navigation {
       /* When on medium sized screens, we reduce font and wrap revere to stay horizontal on nav bar */
       /*justify-content: space-around;*/
@@ -101,7 +105,7 @@ section {
     }
 
     #logo {
-      font-size:140%;
+      font-size: 200%;
       letter-spacing: 1px;
     }
 
@@ -123,6 +127,10 @@ section {
       font-size:80%;
     }
 
+    header {
+      padding: 2px;
+     }
+
     #menu {
       letter-spacing:normal;
     }
@@ -138,9 +146,12 @@ section {
     .container-1 {
       flex-direction: column;
     }
+
     .container-2 {
       flex-direction: column;
+      justify-content: center;
     }
+
 
     #logo {
       font-size:160%;
@@ -152,7 +163,12 @@ section {
     }
   }
 
-  /*end of media queries*/
+  /*To align the flex boxes in smaller screen and overwrite the margins in wider screens*/
+    div.box-1, div.box-2, div.box-3, div.box-4 {
+      margin: 20px;
+    }
+
+     /*end of media queries*/
 
     .container-1 {
       display: flex;
@@ -184,8 +200,6 @@ section {
 
   .container-2 {
     display: flex;
-  
-
   }
 
   .box-3 {
@@ -220,7 +234,7 @@ ul {
 }
 
 footer {
-  height: 150px;
+  height: 200px;
 }
 
 .social-networks {
@@ -232,7 +246,7 @@ footer {
 }
 
 .social-networks i {
-  font-size:240%;
+  font-size: 240%;
   margin: 1%;
   padding: 5%;
   color: #002829;
