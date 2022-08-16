@@ -22,6 +22,8 @@ body {
   font-family: 'Josefin Slab', serif;
   font-weight:bold;
   color:#1B4E53;
+  line-height: 2;
+
 }
 
 header {
@@ -147,11 +149,6 @@ ul {
     display: inline-flex;
 }
 
-/*.footer {
-  height: 200px;
-  position:relative;
-}*/
-
 .social-networks {
   text-align: center;
 }
@@ -167,22 +164,6 @@ ul {
   color: #002829;
 }
 
-/*Trying to stick the footer to the bottom of the page*/
-/*html, body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-.content {
-  margin-top: auto;
-}
-.footer {
-  flex-shrink: 0;
-}*/
-
-/*form from love running editing with flex*/
 #form {
   margin:20px;
   justify-content: center;
@@ -195,8 +176,6 @@ body {
 .text-input {
   background:transparent;
   color:#fafafa;
-  /*width:200px;
-  height:25px;*/
   margin:20px 20px 20px 5px;
   padding: 5px;
   border: 2px solid #002829;
@@ -224,7 +203,7 @@ body {
 }
 
   /* Medium screens */
-  @media all and (max-width: 900px) {
+  @media all and (max-width: 1150px) {
     .navigation {
       /* When on medium sized screens, we reduce font and wrap revere to stay horizontal on nav bar */
       /*justify-content: space-around;*/
@@ -260,8 +239,13 @@ body {
     }
 
     #form {
+      width:90vw;
       display: block;
-      text-align:justify;
+      text-align:center;
+      border: 2px solid #002829;
+      padding:2.5px;
+      margin:30px;
+      justify-content: center;
     }
     .form-1 {
       display: block;
@@ -318,11 +302,21 @@ body {
     }
 
     #form {
+      width:90vw;
       display: block;
-      text-align:justify;
+      text-align:center;
+      border: 2px solid #002829;
+      padding:2.5px;
+      margin:10px;
+      justify-content: center;
+      
     }
     .form-1 {
       display: block;
+    }
+
+    .form-1 > .join-button {
+      text-align: center;
     }
 
   }
