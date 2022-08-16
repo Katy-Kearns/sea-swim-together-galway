@@ -5,92 +5,77 @@
     padding: 0;
     border: none;
 }
-
-
 h1, h2 {
     font-family: 'Amatic SC', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #002829;
 }
-
 h3 {
   text-decoration-line: underline;
 }
-
 body {
   font-family: 'Josefin Slab', serif;
   font-weight:bold;
-  color:#1B4E53;
+  color:#002829;
   line-height: 2;
-
 }
-
+/*Header inc. logo and navigation menu*/
 header {
  padding: 10px;
 }
-
 #logo {
     float:left;
     font-size: 280%;
     margin-left: 20px;
     color: #002829;
 }
-
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
     float:right;
 }
-
 #menu, #logo {
     line-height: 75px;
 }
-
 #menu li {
     list-style-type: none;
     margin-right: 30px;
     display: inline;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     border-bottom: 1px solid #002829;
 }
-
 .active {
     border-bottom: 1px solid #002829;
 }
-
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+/*Section Styling*/
 section {
     width:100%;
 }
-
 #hero-image {
     background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
     background-size:cover ;
 }
-
-/* Large */
-.navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-  }
-  
-
-  
+/*Why Section*/
+.container-1 {
+  display: flex;
+}
   .container-1 div {
     border: 1px #ccc solid;
     justify-content: center;
   }
-
   .box-1 {
     flex:1;
     text-align: left;
@@ -99,8 +84,6 @@ section {
     margin: 30px 15px 15px 30px;
     line-height: 2;
   }
-
-
   .box-2 {
     flex:1;
     text-align: left;
@@ -109,15 +92,13 @@ section {
     margin: 30px 30px 15px 15px;
     line-height: 2;
   }
-
-  .container-1 {
-    display: flex;
-  }
-
+  .container-1 div #box-2 {
+    display: inline-flex;
+}
+  /*About Section with location and dates information*/
   .container-2 {
     display: flex;
   }
-
   .box-3 {
     flex:1;
     text-align: left;
@@ -126,7 +107,6 @@ section {
     margin: 15px 15px 30px 30px;
     line-height: 2;
   }
-
     .box-4 {
     flex:1;
     text-align: left;
@@ -134,21 +114,14 @@ section {
     padding: 30px;
     margin: 15px 30px 30px 15px;
     line-height: 2;  
-    }
-   
-    
+  }
 .box-4 #times li {
   text-transform: uppercase;
 }
-
 ul {
   list-style: none;
 }
-
-.container-1 div #box-2 {
-    display: inline-flex;
-}
-
+/*Footer Section with Social Links. credit for structure:loverunning*/
 .social-networks {
   text-align: center;
 }
@@ -156,14 +129,13 @@ ul {
 .social-networks > li {
   display: inline;
 }
-
 .social-networks i {
   font-size: 240%;
   margin: 1%;
   padding: 5%;
   color: #002829;
 }
-
+/*Form styling credit for structure:loverunning*/
 #form {
   margin:20px;
   justify-content: center;
@@ -172,20 +144,17 @@ ul {
 .form-1 {
   display: inline;
 }
-
 .text-input {
   background:transparent;
-  color:#fafafa;
+  color:black;
   margin:20px 20px 20px 5px;
   padding: 5px;
   border: 2px solid #002829;
   border-radius:2px;
 }
-
 .text-input:hover {
   border-color:#74A0AA;
 }
-
 .join-button {
   margin:20px;
   border-radius:2px;
@@ -196,22 +165,18 @@ ul {
   color:#fafafa;
   display:inline;
 }
-
 .join-button:hover {
   background-color:#74A0AA;
   color:#002829;
 }
-
+/*Media queries for Medium and Small screens credit in readme for flexbox*/
   /* Medium screens */
   @media all and (max-width: 1150px) {
     .navigation {
       /* When on medium sized screens, we reduce font and wrap revere to stay horizontal on nav bar */
-      /*justify-content: space-around;*/
       flex-wrap: wrap-reverse;
       font-weight:bold;
-
     }
-
     #hero-image {
         /*background: url('../images/hero-medium-screen.jpg') no-repeat center center;*/
         background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
@@ -219,25 +184,21 @@ ul {
         width: 100%;
         background-size: cover;
     }
-
     .container-1 {
       display: flex;
     }
-
     #logo {
       font-size: 200%;
       letter-spacing: 1px;
     }
-
     /*to reduce space between menu items*/
     .navigation #menu li {
       margin-right: 20px;
     }
-
     h1, h2 {
       letter-spacing:normal;
     }
-
+    /*to change form to vertical and boxed in on smaller screens*/
     #form {
       width:90vw;
       display: block;
@@ -250,9 +211,7 @@ ul {
     .form-1 {
       display: block;
     }
-
     }
-
   /* Small screens */
   @media all and (max-width: 500px) {
     .navigation {
@@ -260,15 +219,19 @@ ul {
       flex-wrap: wrap-reverse;
       font-size:80%;
     }
-
     header {
       padding: 2px;
      }
-
+     #logo {
+      font-size:160%;
+    }
+    /*to reduce space between menu items*/
+    .navigation #menu li {
+      margin-right: 10px;
+    }
     #menu {
       letter-spacing:normal;
     }
-
     #hero-image {
     /*background: url('../images/hero-small-screen.jpg') no-repeat center center;*/
     background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
@@ -276,31 +239,17 @@ ul {
     width: 100%;
     background-size: cover;
     }
-
     .container-1 {
       flex-direction: column;
     }
-
     .container-2 {
       flex-direction: column;
       justify-content: center;
     }
-
-
-    #logo {
-      font-size:160%;
-    }
-
-    /*to reduce space between menu items*/
-    .navigation #menu li {
-      margin-right: 10px;
-    }
-
   /*To align the flex boxes in smaller screen and overwrite the margins in wider screens*/
     div.box-1, div.box-2, div.box-3, div.box-4 {
       margin: 20px;
     }
-
     #form {
       width:90vw;
       display: block;
@@ -309,14 +258,11 @@ ul {
       padding:2.5px;
       margin:10px;
       justify-content: center;
-      
     }
     .form-1 {
       display: block;
     }
-
     .form-1 > .join-button {
       text-align: center;
     }
-
   }
