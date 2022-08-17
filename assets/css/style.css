@@ -100,47 +100,25 @@ section {
   /*About Section with location and dates information*/
   .container-2 {
     display: flex;
-    height:300px;
   }
   .box-3 {
-    flex:3;
+    flex: 1;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
     margin: 15px 15px 30px 30px;
     line-height: 2;
     border-radius: 1%;
-    height:300px;
   }
-  /*.pic-box {
-    background-image: url(../images/Blackrock-Diving-Tower-Galways-Most-Iconic-Swim-Spot-300x300.jpg);
-    height:300px;
-    width:300px;
-    border-radius: 50%;
-    line-height: normal;
-  }*/
     .box-4 {
-    flex:1;
-    text-align: right;
-    color: black;
+    flex: 1;
+    text-align: left;
+    background-color: #74A0AA;
     padding: 30px;
     margin: 15px 30px 30px 15px;
     line-height: 2;  
     border-radius: 1%;
-    background: url(../images/Blackrock-Diving-Tower-Galways-Most-Iconic-Swim-Spot-300x300.jpg) no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    backdrop-filter: blur(10px);
   }
-
-#front, #back { position: absolute; width: 100%; }
-#back { min-height: 100%; z-index: 1; }
-#front { z-index: 2; }
-#back { background-image: url(../images/Blackrock-Diving-Tower-Galways-Most-Iconic-Swim-Spot-300x300.jpg); opacity: 0.5; }
-.box-4 #times li {
-  text-transform: uppercase;
-}
 ul {
   list-style: none;
 }
@@ -160,10 +138,9 @@ ul {
 }
 /*Form styling credit for structure:loverunning*/
 #form {
-  margin:100px 50px 30px 50px;
+  margin: 30px;
   justify-content: center;
   text-align:center;
-  clear: both;
 }
 .form-1 {
   display: inline;
