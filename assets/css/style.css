@@ -15,8 +15,8 @@ h3 {
   text-decoration-line:none;
 }
 
-.box-4 h3 {
-  text-decoration: none;
+.box-2 h3 {
+  text-decoration:underline;
 }
 
 body {
