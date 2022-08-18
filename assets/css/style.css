@@ -12,8 +12,13 @@ h1, h2 {
     color: #002829;
 }
 h3 {
-  text-decoration-line: none;
+  text-decoration-line:underline;
 }
+
+.box-4 h3 {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Josefin Slab', serif;
   font-weight:bold;
@@ -164,13 +169,13 @@ ul {
   padding: 15px 32px;
   text-align:center;
   font-size:100%;
-  background-color:#002829;
+  background-color:#74A0AA;
   color:#fafafa;
   display:inline;
 }
 .join-button:hover {
-  background-color:#74A0AA;
-  color:#002829;
+  background-color:#002829;
+  color:#fafafa;
 }
 /*Media queries for Medium and Small screens credit in readme for flexbox*/
   /* Medium screens */
@@ -206,20 +211,18 @@ ul {
       width:90vw;
       display: block;
       text-align:center;
-      /*border: 2px solid #002829;*/
       padding:2.5px;
       margin:30px;
-      justify-content: center;
     }
     .form-1 {
       display: block;
     }
     .text-input {
       width: 20vw;
-      height: 2rem;
+      height: 1rem;
     }
   /* Small screens */
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 600px) {
     .navigation {
       /* On small screens, we are no longer using row direction but column */
       flex-wrap: wrap-reverse;
