@@ -144,6 +144,7 @@ ul {
 }
 .form-1 {
   display: inline;
+
 }
 .text-input {
   background:transparent;
@@ -152,6 +153,7 @@ ul {
   padding: 5px;
   border: 2px solid #002829;
   border-radius:2px;
+
 }
 .text-input:hover {
   border-color:#74A0AA;
@@ -179,9 +181,9 @@ ul {
       font-weight:bold;
     }
     #hero-image {
-        /*background: url('../images/hero-medium-screen.jpg') no-repeat center center;*/
-        background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
-        height: 300px;
+        background: url('../images/hero-medium-screen.jpg') no-repeat center center;
+        /*background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;*/
+        height: 450px;
         width: 100%;
         background-size: cover;
     }
@@ -204,7 +206,7 @@ ul {
       width:90vw;
       display: block;
       text-align:center;
-      border: 2px solid #002829;
+      /*border: 2px solid #002829;*/
       padding:2.5px;
       margin:30px;
       justify-content: center;
@@ -234,8 +236,8 @@ ul {
       letter-spacing:normal;
     }
     #hero-image {
-    /*background: url('../images/hero-small-screen.jpg') no-repeat center center;*/
-    background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
+    background: url('../images/hero-small-screen.jpg') no-repeat center center;
+    /*background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;*/
     height: 300px;
     width: 100%;
     background-size: cover;
@@ -255,7 +257,7 @@ ul {
       width:90vw;
       display: block;
       text-align:center;
-      border: 2px solid #002829;
+      /*border: 2px solid #002829;*/
       padding:2.5px;
       margin:10px;
       justify-content: center;
@@ -265,5 +267,13 @@ ul {
     }
     .form-1 > .join-button {
       text-align: center;
+    }
+    .text-input {
+      background:transparent;
+      color:black;
+      margin:20px 20px 20px 5px;
+      padding: 5px;
+      border: 2px solid #002829;
+      border-radius:2px;
     }
   }
