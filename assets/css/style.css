@@ -214,6 +214,9 @@ ul {
     .form-1 {
       display: block;
     }
+    .text-input {
+      width: 20vw;
+      height: 2rem;
     }
   /* Small screens */
   @media all and (max-width: 500px) {
@@ -269,11 +272,7 @@ ul {
       text-align: center;
     }
     .text-input {
-      background:transparent;
-      color:black;
-      margin:20px 20px 20px 5px;
-      padding: 5px;
-      border: 2px solid #002829;
-      border-radius:2px;
+        width: 35vw;
+        height: 1rem;
     }
   }
