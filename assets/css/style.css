@@ -25,6 +25,7 @@ body {
   color:#002829;
   line-height: 2;
 }
+
 /*Header inc. logo and navigation menu*/
 header {
  padding: 10px;
@@ -156,7 +157,6 @@ ul {
 .social-networks {
   text-align: center;
 }
-
 .social-networks > li {
   display: inline;
 }
@@ -166,6 +166,7 @@ ul {
   padding: 5%;
   color: #002829;
 }
+
 /*Form styling credit for structure:loverunning*/
 #form {
   margin: 30px;
@@ -272,6 +273,20 @@ ul {
     height: 300px;
     width: 100%;
     background-size: cover;
+    }
+    #cover-text {
+    font-size: 50%;
+    width:100px;
+    height: 50px;
+
+    padding:10px;
+    text-align: center;
+
+    background-color: rgba(116, 160, 170, .6);
+
+    top: 200px;
+    left:10px;
+    position: absolute;
     }
     .container-1 {
       flex-direction: column;
