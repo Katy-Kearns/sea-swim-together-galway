@@ -12,7 +12,7 @@ h1, h2 {
     color: #002829;
 }
 h3 {
-  text-decoration-line:underline;
+  text-decoration-line:none;
 }
 
 .box-4 h3 {
@@ -63,16 +63,41 @@ header {
   flex-flow: row wrap;
   justify-content: flex-end;
 }
+
 /*Section Styling*/
 section {
     width:100%;
+}
+
+/*hero image and cover text*/
+#hero-section {
+  position: relative;
 }
 #hero-image {
     background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
-    background-size:cover ;
+    background-size:cover;
 }
+#cover-text, #cover-text h2 {
+      color: #fff;   
+}
+#cover-text {
+  font-size: 130%;
+  width:300px;
+  height: 150px;
+
+  padding-top: 30px;
+  padding-left: 10px;
+  text-align: center;
+
+  background-color: rgba(116, 160, 170, .6);
+
+  top: 120px;
+  right:20px;
+  position: absolute;
+}
+
 /*Why Section*/
 .container-1 {
   display: flex;
