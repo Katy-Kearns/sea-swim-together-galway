@@ -167,6 +167,11 @@ ul {
   color: #002829;
 }
 
+.social-networks i:hover {
+  color: #74A0AA;
+  font-size: 300%;
+}
+
 /*Form styling credit for structure:loverunning*/
 #form {
   margin: 30px;
