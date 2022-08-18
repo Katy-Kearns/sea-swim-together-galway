@@ -44,6 +44,9 @@ header {
     margin-left: 20px;
     color: #002829;
 }
+#logo:hover {
+  font-size: 300%;
+}
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
