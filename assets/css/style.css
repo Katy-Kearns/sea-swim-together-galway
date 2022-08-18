@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Slab:wght@200&display=swap');
 
 * {
@@ -12,7 +19,8 @@ h1, h2 {
     color: #002829;
 }
 h3 {
-  text-decoration-line:none;
+  -webkit-text-decoration-line:none;
+          text-decoration-line:none;
 }
 
 .box-2 h3 {
@@ -60,9 +68,16 @@ header {
     border-bottom: 1px solid #002829;
 }
 .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 /*Section Styling*/
@@ -101,14 +116,20 @@ section {
 
 /*Why Section*/
 .container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
   .container-1 div {
     border: 1px #ccc solid;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .box-1 {
-    flex:1;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
@@ -117,7 +138,9 @@ section {
     border-radius: 1%;
   }
   .box-2 {
-    flex:2;
+    -webkit-box-flex:2;
+        -ms-flex:2;
+            flex:2;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
@@ -126,14 +149,20 @@ section {
     border-radius: 1%;
   }
   .container-1 div #box-2 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
 }
   /*About Section with location and dates information*/
   .container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .box-3 {
-    flex: 2;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
@@ -142,7 +171,9 @@ section {
     border-radius: 1%;
   }
     .box-4 {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
@@ -152,6 +183,9 @@ section {
   }
 ul {
   list-style: none;
+}
+#times {
+  text-transform: uppercase;
 }
 /*Footer Section with Social Links. credit for structure:loverunning*/
 .social-networks {
@@ -175,7 +209,9 @@ ul {
 /*Form styling credit for structure:loverunning*/
 #form {
   margin: 30px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align:center;
 }
 .form-1 {
@@ -213,7 +249,8 @@ ul {
   @media all and (max-width: 1150px) {
     .navigation {
       /* When on medium sized screens, we reduce font and wrap revere to stay horizontal on nav bar */
-      flex-wrap: wrap-reverse;
+      -ms-flex-wrap: wrap-reverse;
+          flex-wrap: wrap-reverse;
       font-weight:bold;
     }
     #hero-image {
@@ -224,6 +261,8 @@ ul {
         background-size: cover;
     }
     .container-1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
     #logo {
@@ -257,7 +296,8 @@ ul {
   @media all and (max-width: 600px) {
     .navigation {
       /* On small screens, we are no longer using row direction but column */
-      flex-wrap: wrap-reverse;
+      -ms-flex-wrap: wrap-reverse;
+          flex-wrap: wrap-reverse;
       font-size:80%;
     }
     header {
@@ -295,11 +335,19 @@ ul {
     position: absolute;
     }
     .container-1 {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
     .container-2 {
-      flex-direction: column;
-      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
   /*To align the flex boxes in smaller screen and overwrite the margins in wider screens*/
     div.box-1, div.box-2, div.box-3, div.box-4 {
@@ -312,7 +360,9 @@ ul {
       /*border: 2px solid #002829;*/
       padding:2.5px;
       margin:10px;
-      justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
     .form-1 {
       display: block;
