@@ -105,19 +105,16 @@ section {
   font-size: 130%;
   width:300px;
   height: 150px;
-
   padding-top: 30px;
   padding-left: 10px;
   text-align: center;
-
   background-color: rgba(116, 160, 170, .6);
-
   top: 30px;
   right:30px;
   position: absolute;
 }
 
-/*Why Section*/
+/*Why Section Guidance and some code examples taken from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .container-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,7 +206,7 @@ ul {
   font-size: 300%;
 }
 
-/*Form styling credit for structure:loverunning*/
+/*Loverunning code reworked for line view large screens and customised for purpose*/
 #form {
   margin: 30px;
   -webkit-box-pack: center;
@@ -247,7 +244,7 @@ ul {
   background-color:#002829;
   color:#fafafa;
 }
-/*Media queries for Medium and Small screens credit in readme for flexbox*/
+/*Media queries for Medium and Small screens on flexbox items:https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
   /* Medium screens */
   @media all and (max-width: 1150px) {
     .navigation {
@@ -356,11 +353,11 @@ ul {
     div.box-1, div.box-2, div.box-3, div.box-4 {
       margin: 20px;
     }
+/*Loverunning code reworked for line view and customised for purpose*/
     #form {
       width:90vw;
       display: block;
       text-align:center;
-      /*border: 2px solid #002829;*/
       padding:2.5px;
       margin:10px;
       -webkit-box-pack: center;
