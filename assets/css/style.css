@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: none
 }
 h1, h2 {
     font-family: 'Amatic SC', cursive;
@@ -94,8 +94,8 @@ section {
 
   background-color: rgba(116, 160, 170, .6);
 
-  top: 120px;
-  right:20px;
+  top: 30px;
+  right:30px;
   position: absolute;
 }
 
@@ -117,7 +117,7 @@ section {
     border-radius: 1%;
   }
   .box-2 {
-    flex:1;
+    flex:2;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
@@ -133,7 +133,7 @@ section {
     display: flex;
   }
   .box-3 {
-    flex: 1;
+    flex: 2;
     text-align: left;
     background-color: #74A0AA;
     padding: 30px;
@@ -247,6 +247,7 @@ ul {
       width: 20vw;
       height: 1rem;
     }
+  }
   /* Small screens */
   @media all and (max-width: 600px) {
     .navigation {
