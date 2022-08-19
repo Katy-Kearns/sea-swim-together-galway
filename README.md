@@ -58,7 +58,7 @@ and selected as they apeared a less formal, contemporary pairing that would appe
 
 ### Footer
 
-* The footer contains four icons for social media pages for the group and site.  There maybe social media network accounts and video playlists available with relevant safety information.
+* The footer contains four icons for social media pages for the group and site.  There may be social media network accounts and video playlists available with relevant safety information on further development.
 * Again, the core structure for these links was taken from love running wih styling used keep in with the sites theme and hover elements were added to signpoint to the user what is being selected.
 * They place well on medium and smaller screens but rise too high on a larger screen.
 
@@ -72,6 +72,16 @@ and selected as they apeared a less formal, contemporary pairing that would appe
 * I confirm that the navigation, header, about us, sign up, contact text are all readable and easy to understand.
 * I have confirmes that the form works at the point of the page: entries required in every field, will only accept email in email field and the submit/ let's swim together button works.
 
+### Bugs
+
+* In the course of developing the site I had issues with the follwing:
+    * Image in small and medium screen dissapering when next section added: changed background to cover and adjust px height.
+    * Hero Image was too far zoomed when added: again adjustments to height and setting to cover improved same.
+    * I lost my README on 2 occasions as not saving when entering items and not committed with other files.
+    * I spent a lot of time on responsiveness, margins and a lot of my issues were in grasping the box model and specficity for some issues too.
+    * I still have the following issues with the site that I may have improved before submission:
+        * There is an overflow causing a scroll bar at the bottom of the site on desktop and blank space to the right of the page: I can see some useful guidance and links on Slack for this problem.  I have tried: .row, .container-fluid {margin: 0; padding: 0;} but haven't formatted it correctly as of yet as the overflow remains.
+        * The footer doesn't seem to be at the very bottom of the page and is up higher on desk top and in dev tools shows as above the social network icons. I tried adjusting margin top etc and began working following https://css-tricks.com/couple-takes-sticky-footer/.  The footer was under the nav bar on creating addtitional pages.
 
 
 
