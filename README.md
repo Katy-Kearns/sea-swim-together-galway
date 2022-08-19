@@ -19,6 +19,7 @@ https://ui.dev/amiresponsive
     https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/ 
     and selected as they apeared a less formal, contemporary pairing that would appeal to the sites users.  It has no background as the white contrasts nicely with the hero image selected.
     + The Navigation bar tells the user at the outset the focus of the page and enables them to get to the most important information quickly.
+
     ![alt text](../sea-swim-together-galway/docs/navbar.png)
 
 
@@ -27,6 +28,7 @@ https://ui.dev/amiresponsive
     * The next section of the webpage features a hero image depicting a group of swimmers in the sea.  This image was chosen for the site presentation on a wide screen and the image was used in a generator for a colour scheme for the site.  
     * There is a different hero image for medium and small screens via media queries as you can see in the images above.  The different pictures were chosen as the shapes/ layouts complimented the different screen types and maintained the color theme.
     * There is cover text on the image which acts as a tag line for the site "Sea Swimming Meet ups Galway": to give a quick insight in to the page on landing.  Again, using media queries, the position and size of this cover text changes as the screen size shifts.  It also has an opacity number to allow the hero image to seep through.
+
      ![alt text](../sea-swim-together-galway/docs/heroimglrg.png)
 
 * The "Why" Section
@@ -35,6 +37,16 @@ https://ui.dev/amiresponsive
     * I accessed an article as recommended on Slack to explain and use flex box for layout (https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/) It was useful for positioning differerent elements but will need much more practice.  On evaluation there would be a way to position all 4 using flex: not in 2 containers and I also may have used an article for the benefits.
     * If continuing work on the site I would include images here or break the colors/ shaping as it is a lot of text in one area.
     * I added font icons and used styling on the text to emphasise important information.
+
+* The About Section
+
+    * Next 2 divs are the About Section which is linked from the navigation bar.  It has a short explanatiion of the origins/ makeup of the group.
+    * This is also contaoins the details for the days, times and location for meet ups.  Again, font icons and styling were added to the text to draw the user to important information.
+    
+     ![alt text](../sea-swim-together-galway/docs/heroimglrg.png)
+
+
+
 
 
 
