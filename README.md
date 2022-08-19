@@ -64,7 +64,7 @@ and selected as they apeared a less formal, contemporary pairing that would appe
 
 ![alt text](../sea-swim-together-galway/docs/footer.png)
 
-### Testing
+# Testing
 
 * I tested this page in different browsers: Internet explorer and firefox and it looks and functions well: but mainly worked in and checked the site in Chrome.
 * Using dev tools device toolbar I confirmed that the site is responsive throughout and that it was functioning well on all screen sizes.  Adding media queries as required as I went.  Please see first image of the README also.
@@ -79,9 +79,6 @@ and selected as they apeared a less formal, contemporary pairing that would appe
     * Hero Image was too far zoomed when added: again adjustments to height and setting to cover improved same.
     * I lost my README on 2 occasions as not saving when entering items and not committed with other files.
     * I spent a lot of time on responsiveness, margins and a lot of my issues were in grasping the box model and specficity for some issues too.
-    * I still have the following issues with the site that I may have improved before submission:
-        * There is an overflow causing a scroll bar at the bottom of the site on desktop and blank space to the right of the page: I can see some useful guidance and links on Slack for this problem.  I have tried: .row, .container-fluid {margin: 0; padding: 0;} but haven't formatted it correctly as of yet as the overflow remains.
-        * The footer doesn't seem to be at the very bottom of the page and is up higher on desk top and in dev tools shows as above the social network icons. I tried adjusting margin top etc and began working following https://css-tricks.com/couple-takes-sticky-footer/.  The footer was under the nav bar on creating addtitional pages also.
 
 ### Validator Testing
 * HTML
@@ -89,16 +86,29 @@ and selected as they apeared a less formal, contemporary pairing that would appe
         * heading needed for hero image: didn't add this.
         * There was a P with no closer: there appeared to be but I changed indentation and this seemed to work.
         * 2 unclosed elements: Same response and resolved.
+         ![alt text](../sea-swim-together-galway/docs/htmlw3c.png)
 * CSS
     * No errors found.
+     ![alt text](../sea-swim-together-galway/docs/cssw3c.png)
 
 * Accessibility
     * I can confirm that the colors and fonts chosen are east to read and accesible.  I ran the project through lighthouse and had an initial score on accessibility of 97: the report highlighted color contrast on submit button.  Adjusted same.
+     ![alt text](../sea-swim-together-galway/docs/lighthouse.png)
 
-    ![alt text](../sea-swim-together-galway/docs/htmlw3c.png)
-    ![alt text](../sea-swim-together-galway/docs/cssw3c.png)
+### Unfixed Bugs
 
-The performance score appears very low: we were to concentrate on accesibility in lighthouse .
+ * I still have the following issues with the site that I may have improved before submission:
+    * There is an overflow causing a scroll bar at the bottom of the site on desktop and blank space to the right of the page: I can see some useful guidance and links on Slack for this problem.  I have tried: .row, .container-fluid {margin: 0; padding: 0;} but haven't formatted it correctly as of yet as the overflow remains.
+    * The footer doesn't seem to be at the very bottom of the page and is up higher on desk top and in dev tools shows as above the social network icons. I tried adjusting margin top etc and began working following https://css-tricks.com/couple-takes-sticky-footer/.  The footer was under the nav bar on creating addtitional pages also.
+    * The performance score appears very low: we were to concentrate on accesibility in lighthouse .
+
+# Further Reflection
+* These would be some further points on what I may have 
+
+# Deployment
+
+# Credits
+
 
 
 
