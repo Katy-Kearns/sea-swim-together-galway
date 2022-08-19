@@ -255,11 +255,15 @@ ul {
     }
     #hero-image {
         background: url('../images/hero-medium-screen.jpg') no-repeat center center;
-        /*background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;*/
         height: 450px;
         width: 100%;
         background-size: cover;
     }
+    #cover-text {
+      top: 100px;
+      right:20px;
+    }
+    
     .container-1 {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -315,7 +319,6 @@ ul {
     }
     #hero-image {
     background: url('../images/hero-small-screen.jpg') no-repeat center center;
-    /*background: url('../images/pexels-flo-maderebner-1249545.jpg') no-repeat center center;*/
     height: 300px;
     width: 100%;
     background-size: cover;
