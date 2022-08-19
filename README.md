@@ -95,8 +95,10 @@ and selected as they apeared a less formal, contemporary pairing that would appe
 * Accessibility
     * I can confirm that the colors and fonts chosen are east to read and accesible.  I ran the project through lighthouse and had an initial score on accessibility of 97: the report highlighted color contrast on submit button.  Adjusted same.
 
-    The performance score appears very low: we were to concentrate on accesibility in lighthouse .
+    ![alt text](../sea-swim-together-galway/docs/htmlw3c.png)
+    ![alt text](../sea-swim-together-galway/docs/cssw3c.png)
 
+The performance score appears very low: we were to concentrate on accesibility in lighthouse .
 
 
 
