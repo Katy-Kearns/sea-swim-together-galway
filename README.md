@@ -109,6 +109,9 @@ These are further points on what I may have changed in the completion of the pro
     * I had initially considered including contact form as an additional page and adding a youtube link/ embedded video with safety information between the About section and footer.  A gallery of images of relaxed swimmers would have added some feel good factor to the page.
 * I'd engage very differently with the support systems on offer going forward.  I left planning mentor sessions to try to be 'further along' and then there were no times available.  In hind sight I'd have recieved help with issues that took a lot of time and meant reducing aims.  I also didn't lean on tutur support which would have been perfect for the footer/ scroll issue I'm left with.  I did check in and read up on slack a lot which was very helpful with issues but I think where I'm really lacking was the guidance on the functionality of the site from a mentor and where to focus my time. 
 * Towards the middle of the project I didn't commit to git hub enough and I had a few hairy moments with that. I tried to improve that practice in the latter stages.
+* For example here were some ininitial wireframes I had completed in planning:
+![alt text](../sea-swim-together-galway/docs/wireframe1.png)
+![alt text](../sea-swim-together-galway/docs/wireframe2.png)
 
 # Deployment
 
