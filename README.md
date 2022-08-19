@@ -43,7 +43,7 @@ https://ui.dev/amiresponsive
     * Next 2 divs are the About Section which is linked from the navigation bar.  It has a short explanatiion of the origins/ makeup of the group.
     * This is also contaoins the details for the days, times and location for meet ups.  Again, font icons and styling were added to the text to draw the user to important information.
     
-     ![alt text](../sea-swim-together-galway/docs/heroimglrg.png)
+     ![alt text](../sea-swim-together-galway/docs/about.png)
 
 
 
