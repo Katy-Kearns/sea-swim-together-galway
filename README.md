@@ -112,8 +112,24 @@ These are further points on what I may have changed in the completion of the pro
 
 # Deployment
 
+The site was deployed to github pages.  Steps were as follows:
+* On GitHub repository, clicked on "Settings" tab
+* Go to the "Pages" tab on the left-hand sidebar.
+* Under "Source" clicked the "None" dropdown and selected the "main" branch
+and saved.
+
+The live link can be found here: https://katy-kearns.github.io/sea-swim-together-galway/
+
 # Credits
 
+As included in the HTML and CSS
+* Code from the Love Running Project: Code Institute for form and footer.
+* Code for flex box from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+# Media
+
+* [Favicon source] (https://flyclipart.com/swimming-icon-transparent-swimming-png-384169)
+* https://www.pexels.com/ for website images.
 
 
 
