@@ -103,7 +103,12 @@ and selected as they apeared a less formal, contemporary pairing that would appe
     * The performance score appears very low: we were to concentrate on accesibility in lighthouse .
 
 # Further Reflection
-* These would be some further points on what I may have 
+These are further points on what I may have changed in the completion of the project and some features I think may have added to the site.
+* Due to time I gave myself to complete I really emulated the sample project level goals as suggested.  I also used some sample code as credited.  Some basic elements I started but didn't resolve were:
+    * Adding a pic of Blackrock as a bacground to the where and when Div: this needed work around positioning and then visibility/ placement of information.  I also might have changed that middle layout a lot to privide imagery and differing color as it os very uniform.
+    * I had initially considered including contact form as an additional page and adding a youtube link/ embedded video with safety information between the About section and footer.  A gallery of images of relaxed swimmers would have added some feel good factor to the page.
+* I'd engage very differently with the support systems on offer going forward.  I left planning mentor sessions to try to be 'further along' and then there were no times available.  In hind sight I'd have recieved help with issues that took a lot of time and meant reducing aims.  I also didn't lean on tutur support which would have been perfect for the footer/ scroll issue I'm left with.  I did check in and read up on slack a lot which was very helpful with issues but I think where I'm really lacking was the guidance on the functionality of the site from a mentor and where to focus my time. 
+* Towards the middle of the project I didn't commit to git hub enough and I had a few hairy moments with that. I tried to improve that practice in the latter stages.
 
 # Deployment
 
