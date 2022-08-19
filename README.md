@@ -22,7 +22,18 @@ https://ui.dev/amiresponsive
     ![alt text](../sea-swim-together-galway/docs/navbar.png)
 
 
-* The Header
+* The Hero Image and cover Text
+
+    * The next section of the webpage features a hero image depicting a group of swimmers in the sea.  This image was chosen for the site presentation on a wide screen and the image was used in a generator for a colour scheme for the site.  
+    * There is a different hero image for medium and small screens via media queries as you can see in the images above.  The different pictures were chosen as the shapes/ layouts complimented the different screen types and maintained the color theme.
+    * There is cover text on the image which acts as a tag line for the site "Sea Swimming Meet ups Galway": to give a quick insight on to the page on landing.  Again, using media queries, the position and size of this cover text changes as the screen size shifts.
+     ![alt text](../sea-swim-together-galway/docs/heroimglrg.png)
+
+     
+
+
+
+
 
 
 
