@@ -64,6 +64,15 @@ and selected as they apeared a less formal, contemporary pairing that would appe
 
 ![alt text](../sea-swim-together-galway/docs/footer.png)
 
+### Testing
+
+* I tested this page in different browsers: Internet explorer and firefox and it looks and functions well: but mainly worked in and checked the site in Chrome.
+* Using dev tools device toolbar I confirmed that the site is responsive throughout and that it was functioning well on all screen sizes.  Adding media queries as required as I went.  Please see first image of the README also.
+* I used https://autoprefixer.github.io/ to prefix css as required and ensure compatibility with other browsers.
+* I confirm that the navigation, header, about us, sign up, contact text are all readable and easy to understand.
+* I have confirmes that the form works at the point of the page: entries required in every field, will only accept email in email field and the submit/ let's swim together button works.
+
+
 
 
 
