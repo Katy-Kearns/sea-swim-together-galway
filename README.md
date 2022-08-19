@@ -81,7 +81,21 @@ and selected as they apeared a less formal, contemporary pairing that would appe
     * I spent a lot of time on responsiveness, margins and a lot of my issues were in grasping the box model and specficity for some issues too.
     * I still have the following issues with the site that I may have improved before submission:
         * There is an overflow causing a scroll bar at the bottom of the site on desktop and blank space to the right of the page: I can see some useful guidance and links on Slack for this problem.  I have tried: .row, .container-fluid {margin: 0; padding: 0;} but haven't formatted it correctly as of yet as the overflow remains.
-        * The footer doesn't seem to be at the very bottom of the page and is up higher on desk top and in dev tools shows as above the social network icons. I tried adjusting margin top etc and began working following https://css-tricks.com/couple-takes-sticky-footer/.  The footer was under the nav bar on creating addtitional pages.
+        * The footer doesn't seem to be at the very bottom of the page and is up higher on desk top and in dev tools shows as above the social network icons. I tried adjusting margin top etc and began working following https://css-tricks.com/couple-takes-sticky-footer/.  The footer was under the nav bar on creating addtitional pages also.
+
+### Validator Testing
+* HTML
+    * At present no errors returning when passing through the official W3C validator.  When checking at an earlier point the following was highlighted:
+        * heading needed for hero image: didn't add this.
+        * There was a P with no closer: there appeared to be but I changed indentation and this seemed to work.
+        * 2 unclosed elements: Same response and resolved.
+* CSS
+    * No errors found.
+
+* Accessibility
+    * I can confirm that the colors and fonts chosen are east to read and accesible.  I ran the project through lighthouse and had an initial score on accessibility of 97: the report highlighted color contrast on submit button.  Adjusted same.
+
+    The performance score appears very low: we were to concentrate on accesibility in lighthouse .
 
 
 
